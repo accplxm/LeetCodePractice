@@ -12,20 +12,33 @@
 // Related Topics 数组 哈希表
 
 package leetcode.editor.cn;
+
+import java.util.HashMap;
+import java.util.Map;
+
 //java:两数之和
-public class P1TwoSum{
-    public static void main(String[] args){
+public class P1TwoSum {
+    public static void main(String[] args) {
         Solution solution = new P1TwoSum().new Solution();
         //TO TEST
     }
-    
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return null;
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] twoSum(int[] nums, int target) {
+            Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+            int tmp = 0;
+            for (int i = 0; i < nums.length; i++) {
+                tmp = target - nums[i];
+                if (map.containsKey(tmp)) {
+                    return new int[]{map.get(tmp), i};
+                }
+                map.put(nums[i], i);
+            }
+            return null;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
