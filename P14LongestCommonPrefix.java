@@ -21,20 +21,21 @@
 // Related Topics 字符串
 
 package leetcode.editor.cn;
+
 //java:最长公共前缀
-public class P14LongestCommonPrefix{
-    public static void main(String[] args){
+public class P14LongestCommonPrefix {
+    public static void main(String[] args) {
         Solution solution = new P14LongestCommonPrefix().new Solution();
         //TO TEST
     }
-    
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public String longestCommonPrefix(String[] strs) {
-        return null;
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public String longestCommonPrefix(String[] strs) {
+            return null;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
