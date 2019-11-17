@@ -46,6 +46,7 @@ public class P641DesignCircularDeque {
         //设置两个空指针，分别指向头尾，
         // 设置容量大小为3
         MyCircularDeque circularDeque = new P641DesignCircularDeque().new MyCircularDeque(3);
+        //新增元素，返回true
         System.out.println(circularDeque.insertLast(1));
         System.out.println(circularDeque.insertLast(2));
         System.out.println(circularDeque.insertFront(3));
