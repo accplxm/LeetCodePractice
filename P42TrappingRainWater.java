@@ -20,6 +20,7 @@ public class P42TrappingRainWater {
     public static void main(String[] args) {
         Solution solution = new P42TrappingRainWater().new Solution();
         //TO TEST
+        //1、左右双指针
     }
 
 
