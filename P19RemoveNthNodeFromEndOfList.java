@@ -26,6 +26,8 @@ public class P19RemoveNthNodeFromEndOfList {
     public static void main(String[] args) {
         Solution solution = new P19RemoveNthNodeFromEndOfList().new Solution();
         //TO TEST
+        //暴力遍历，找到倒数第n个节点
+        //双指针，找到倒数第n+1个节点
     }
 
 
