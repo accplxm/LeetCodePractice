@@ -42,6 +42,7 @@ public class P34FindFirstAndLastPositionOfElementInSortedArray {
             int end = -1;
             int left = 0;
             int right = nums.length - 1;
+            //二分查找
             while (left <= right) {
                 int middle = (left + right) / 2;
                 if (nums[middle] == target) {
