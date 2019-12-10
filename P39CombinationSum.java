@@ -71,6 +71,7 @@ public class P39CombinationSum {
                 }
                 tmpList.add(candidates[start]);
                 getResultList(candidates, target - candidates[start], res, start, tmpList);
+                //回溯
                 tmpList.remove(tmpList.size() - 1);
             }
         }
